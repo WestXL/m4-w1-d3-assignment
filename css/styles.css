@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bitter";
+}
+
+body {
+  width: 80em;
+}
+body .header {
+  background-image: linear-gradient(to right, rgb(58, 96, 115), rgb(22, 34, 42));
+  height: 200px;
+}
+body .header h1 {
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  font-family: Bitter FontAwesome;
+}
+body .row {
+  margin: 0;
+}
+body .h2,
+body h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 1em;
+  font-size: 1.5rem;
+}
+body .post {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 60px;
+}
+body .post img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+body .post button {
+  padding: 0.2em;
+  background-color: white;
+  border-radius: 5px;
+  font-size: smaller;
+  position: absolute;
+  bottom: -40px;
+  left: 33%;
+}
+
+/*# sourceMappingURL=styles.css.map */
